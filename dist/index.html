@@ -27,21 +27,15 @@
     gtag('config', 'G-Y7Q0PC2SPE');
   </script>
 
-  <!-- Schema: Website -->
+  <!-- Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "ExtensionHub",
-    "url": "https://extensionhub.in",
-    "description": "ExtensionHub is a curated marketplace to discover trusted Chrome extensions for productivity, privacy, and developers.",
-    "publisher": {
-      "@type": "Organization",
-      "name": "ExtensionHub"
-    }
+    "url": "https://extensionhub.in"
   }
   </script>
-
 </head>
 
 <body>
@@ -51,16 +45,12 @@
   <div class="container">
     <a class="navbar-brand fw-bold" href="index.html">ExtensionHub</a>
 
-    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+    <div class="collapse navbar-collapse justify-content-end">
       <ul class="navbar-nav">
         <li class="nav-item"><a class="nav-link active" href="index.html">Explore</a></li>
-        <li class="nav-item"><a class="nav-link" href="category-productivity.html">Productivity</a></li>
-        <li class="nav-item"><a class="nav-link" href="category-privacy.html">Privacy</a></li>
-        <li class="nav-item"><a class="nav-link" href="category-developer-tools.html">Developer Tools</a></li>
+        <li class="nav-item"><a class="nav-link" href="categories/productivity.html">Productivity</a></li>
+        <li class="nav-item"><a class="nav-link" href="categories/privacy.html">Privacy</a></li>
+        <li class="nav-item"><a class="nav-link" href="categories/developer-tools.html">Developer Tools</a></li>
         <li class="nav-item"><a class="nav-link" href="submit.html">Submit Extension</a></li>
       </ul>
     </div>
@@ -74,6 +64,11 @@
     <p class="text-muted mt-3">
       A curated marketplace to explore the best browser extensions for productivity, privacy, and developers.
     </p>
+
+    <!-- SEO Article link -->
+    <a href="articles/best-productivity-chrome-extensions.html" class="btn btn-outline-primary mt-3">
+      Read: Best Productivity Chrome Extensions
+    </a>
   </div>
 </section>
 
@@ -83,40 +78,32 @@
     <h2 class="fw-bold mb-4">Explore by Category</h2>
 
     <div class="row g-4">
-
       <div class="col-md-4">
-        <a href="category-productivity.html" class="text-decoration-none">
+        <a href="categories/productivity.html" class="text-decoration-none">
           <div class="card h-100 shadow-sm border-0 p-4">
             <h5 class="fw-bold">Productivity Extensions</h5>
-            <p class="text-muted small">
-              Focus tools, task managers, and distraction blockers.
-            </p>
+            <p class="text-muted small">Focus tools, task managers, and distraction blockers.</p>
           </div>
         </a>
       </div>
 
       <div class="col-md-4">
-        <a href="category-privacy.html" class="text-decoration-none">
+        <a href="categories/privacy.html" class="text-decoration-none">
           <div class="card h-100 shadow-sm border-0 p-4">
             <h5 class="fw-bold">Privacy Extensions</h5>
-            <p class="text-muted small">
-              Protect your data, block trackers, and browse securely.
-            </p>
+            <p class="text-muted small">Protect your data, block trackers, and browse securely.</p>
           </div>
         </a>
       </div>
 
       <div class="col-md-4">
-        <a href="category-developer-tools.html" class="text-decoration-none">
+        <a href="categories/developer-tools.html" class="text-decoration-none">
           <div class="card h-100 shadow-sm border-0 p-4">
             <h5 class="fw-bold">Developer Tools</h5>
-            <p class="text-muted small">
-              Debugging, testing, and workflow enhancement tools.
-            </p>
+            <p class="text-muted small">Debugging, testing, and workflow enhancement tools.</p>
           </div>
         </a>
       </div>
-
     </div>
   </div>
 </section>
@@ -127,15 +114,12 @@
     <h2 class="fw-bold mb-4">Featured Extensions</h2>
 
     <div class="row g-4">
-
       <div class="col-md-6 col-lg-4">
         <div class="card h-100 shadow-sm border-0">
           <div class="card-body">
             <h5>Focus Timer & Website Blocker</h5>
-            <p class="small text-muted">
-              Pomodoro timer and distraction blocker for deep work sessions.
-            </p>
-            <a href="extension-focus-timer.html" class="btn btn-sm btn-primary">View Details</a>
+            <p class="small text-muted">Pomodoro timer and distraction blocker.</p>
+            <a href="extensions/focus-timer.html" class="btn btn-sm btn-primary">View Details</a>
           </div>
         </div>
       </div>
@@ -144,10 +128,8 @@
         <div class="card h-100 shadow-sm border-0">
           <div class="card-body">
             <h5>Privacy Shield</h5>
-            <p class="small text-muted">
-              Block trackers and protect your browsing privacy.
-            </p>
-            <a href="extension-privacy-shield.html" class="btn btn-sm btn-primary">View Details</a>
+            <p class="small text-muted">Block trackers and protect privacy.</p>
+            <a href="extensions/privacy-shield.html" class="btn btn-sm btn-primary">View Details</a>
           </div>
         </div>
       </div>
@@ -156,28 +138,18 @@
         <div class="card h-100 shadow-sm border-0">
           <div class="card-body">
             <h5>Task Manager Pro</h5>
-            <p class="small text-muted">
-              Manage daily tasks and stay organized.
-            </p>
-            <a href="extension-task-manager.html" class="btn btn-sm btn-primary">View Details</a>
+            <p class="small text-muted">Manage daily tasks and stay organized.</p>
+            <a href="extensions/task-manager.html" class="btn btn-sm btn-primary">View Details</a>
           </div>
         </div>
       </div>
-
     </div>
   </div>
 </section>
 
-<!-- Footer -->
-<footer class="py-4 border-top">
-  <div class="container text-center small text-muted">
-    © 2026 ExtensionHub ·
-    <a href="#">Privacy</a> ·
-    <a href="#">Terms</a> ·
-    <a href="#">Support</a>
-  </div>
+<footer class="py-4 border-top text-center small text-muted">
+  © 2026 ExtensionHub
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
