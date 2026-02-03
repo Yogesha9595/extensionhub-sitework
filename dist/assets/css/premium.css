@@ -90,3 +90,74 @@ section h2{
 .footer a:hover{
   color:white;
 }
+/* ========== Responsive Fixes ========== */
+
+.navbar-toggler{
+  border:none;
+}
+
+.navbar-toggler:focus{
+  box-shadow:none;
+}
+
+.nav-link{
+  font-weight:500;
+}
+
+@media (max-width:768px){
+
+  .hero{
+    padding:60px 20px;
+    text-align:center;
+  }
+
+  .hero h1{
+    font-size:28px;
+  }
+
+  .hero p{
+    font-size:15px;
+  }
+
+  .card{
+    margin-bottom:15px;
+  }
+
+  section h2{
+    font-size:22px;
+    text-align:center;
+  }
+
+  .footer{
+    text-align:center;
+  }
+}
+/* ========== Dark Mode ========== */
+
+.dark-mode{
+  background:#0b1220;
+  color:#e2e8f0;
+}
+
+.dark-mode .navbar{
+  background:#0b1220 !important;
+  border-bottom:1px solid #1e293b;
+}
+
+.dark-mode .hero{
+  background:linear-gradient(180deg,#0f172a 0%, #0b1220 100%);
+}
+
+.dark-mode .card{
+  background:#0f172a;
+  color:#e2e8f0;
+  box-shadow:0 10px 30px rgba(0,0,0,0.6);
+}
+
+.dark-mode .footer{
+  background:#020617;
+}
+
+.dark-mode a{
+  color:#38bdf8;
+}

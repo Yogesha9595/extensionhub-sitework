@@ -5,3 +5,10 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+// ===== Dark Mode Toggle on Double Click Logo =====
+
+const logo = document.getElementById('logoToggle');
+
+logo.addEventListener('dblclick', () => {
+    document.body.classList.toggle('dark-mode');
+});
